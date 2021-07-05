@@ -10,8 +10,8 @@ body {
 }
 
 .firstHeading {
-    margin: 0px;
-    padding: 50px;
+    margin: 20px 0px;
+    padding: 60px 50px 0px;
     font-weight: bold;
     font-size: 55px;
     line-height: 5px;
@@ -22,14 +22,27 @@ body {
 }
 
 .firstLeftSection {
-    width: 50%;
+    margin-left: 5%;
+    width: 40%;
     border: 2px solid red;
-    margin-left: 50px;
-
 }
 
+.firstLeftSection p {
+        padding-left: 50px;
+}
+
+.btn {
+    margin: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #fe5131;
+    color: white;
+    border-radius: 25px;
+    font-weight: bolder;
+}
 .firstrightSection {
-    width: 50%;
+    margin-left: 5%;
+    width: 40%;
     border: 2px solid red;
 }
 
