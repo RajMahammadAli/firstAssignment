@@ -100,6 +100,19 @@ body {
 .Cardcontainer {
     margin: 0px;
 }
+
+.Cardcontainer h4 {
+    margin: 0px;
+    padding: 0px 10px 0px;
+
+}
+
+.Cardcontainer p {
+    margin: 0px;
+    padding: 0px;
+    padding: 0px 10px 0px;
+}
+
 .firstcard {
     margin: 2%;
     padding: 10px;
