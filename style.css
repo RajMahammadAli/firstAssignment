@@ -10,11 +10,9 @@ body {
 }
 
 .firstHeading {
-    margin: 20px 0px;
-    padding: 60px 50px 0px;
+    margin: 150px 10px 0px 50px;
     font-weight: bold;
-    font-size: 55px;
-    line-height: 5px;
+    font-size: 60px;
 }
 
 #colorOrange {
@@ -24,43 +22,58 @@ body {
 .firstLeftSection {
     margin-left: 5%;
     width: 40%;
-    border: 2px solid red;
+    
 }
 
 .firstLeftSection p {
-        padding-left: 50px;
+        padding: 10px 50px;
 }
 
 .btn {
     margin: 50px;
     padding: 10px 20px;
     text-decoration: none;
-    background-color: #fe5131;
+    background-image: linear-gradient(to right, tomato, orange);
     color: white;
     border-radius: 25px;
     font-weight: bolder;
 }
 .firstrightSection {
     margin-left: 5%;
+    padding: 30px;
     width: 40%;
-    border: 2px solid red;
+    
 }
 
 .firstImage {
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 580px;
 }
 
 
 .secondpart {
+    
     background-image: url('/images/secondShape.png');
-    border: 2px solid red;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .secondImage {
-    width: 230px;
+    margin: 10px 20px 0px 200px;
+    padding: 0px;
+    width: 200px;
     height: 350px;
+}
+
+
+.secondRightSection {
+    margin: 40px;
+    padding: 40px;
+    width: 40%;
+}
+
+.secondRightSection p {
+    padding: 20px 0px;
 }
 
 
@@ -76,6 +89,12 @@ body {
 .Cardcontainer {
     margin: 0px;
 }
+
+.Cardcontainer h3 {
+    text-align: center;
+}
+
+
 .firstcard {
     margin: 2%;
     padding: 10px;
@@ -107,7 +126,8 @@ body {
 
 
 .review {
-    padding: 5%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .Cardcontainer {
@@ -156,7 +176,20 @@ body {
 }
 
 .Newslater {
-    margin: 5%;
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.scribeBtn {
+    margin: 0px;
+    padding: 6px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, tomato, orange);
+    color: white;
+    border-radius: 25px;
+    font-weight: bolder;
 }
 
 .footer {
